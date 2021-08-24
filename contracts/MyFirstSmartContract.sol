@@ -1,9 +1,9 @@
 pragma solidity ^0.6.6;
 
-contract MyFirstContract {
+contract MyFirstSmartContract {
  
     uint256 number;
-
+ 
  
     function setNumber(uint256 _num) public {
         number = _num;
